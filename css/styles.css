@@ -13,8 +13,13 @@ body {
 	text-align: center;
 }
 
+.table {
+	width: 45%;
+}
+
 .instructions {
 	text-align: center;
+	justify-content: center;
 }
 
 .container {
