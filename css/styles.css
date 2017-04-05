@@ -1,13 +1,44 @@
-h1  {
-  color: red;
-  text-align: center;
+body {
+    background-image: url("http://img.karaoke-lyrics.net/img/artists/35563/marky-mark-445341.jpg");
+}
+
+#title  {
+  	text-align: center;
+    /*flex: 1 0 auto;*/
+    padding: 5px;
+    margin: 5px;
+}
+
+#subtitle {
+	text-align: center;
+}
+
+.table {
+	margin-left: 10%;
+	width: 80%;
+	text-align: center
+}
+
+.instructions {
+	text-align: center;
+	justify-content: center;
+}
+
+.container {
+    min-height: 100vh;
+    background: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    padding: 40px; 
+    width: 600px
 }
 
 .view-box {
-  border: 3px dotted orange;
-  width: 25%;
-  height: 45%;
-  margin: 5px;
-  padding: 10px;
-  float: left;
+	background-color: white;
+  	border: 3px solid;
+  	width: 45%;
+  	height: 45%;
+  	margin: 5px;
+  	padding: 10px;
+  	float: left;
 }
